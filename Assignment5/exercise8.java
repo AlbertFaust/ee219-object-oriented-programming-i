@@ -1,4 +1,4 @@
-/*Assignment 5 - Exercise 7
+/*Assignment 5 - Exercise 8
 Write a function in Java that returns the winning numbers in next week’s lottery draw. The function should have the form: int[] lotteryNumbers(); where the function uses the Math class random() method to return an array of 7 integers between 1 and 45. You must not allow the same number to come up multiple times.
 Write a display function that uses the sort displays the resulting numbers in order (see the Arrays class in Java).
 Write code to perform the lottery draw 1,000,000 times in a row to test if the draw outcomes are truly random.
