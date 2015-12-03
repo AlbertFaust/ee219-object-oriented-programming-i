@@ -1,0 +1,30 @@
+Write the following application in Java that allows you to choose a color by using the scroll bars, textfields or buttons. It should give a consistent display of the color, so if you change one of the scroll bars then the associated text field should change. If you change the value in the text fields then the scroll bars should change. The rectangular color area on the left should also update. The application should limit the input to only valid values (i.e., it should not fail if you type abc in a text field)
+
+The final application should look exactly like this:
+
+[IMAGE TO BE ADDED]
+
+When you press the "Store" button the color is stored and displayed in the top left-hand corner of the color display as below. Notice that the rectangles to the right of the text fields change according to the colors that are chosen.
+
+[IMAGE TO BE ADDED]
+
+Some points:
+
+    Use a Custom canvas object for the color rectangle on the left.
+    A Color object can be created using three red, green and blue int values between 0-255 – check the constructor of the Color class.
+    To check that a valid number is entered you can use the exception example (if you wish) that I discussed before in lectures. Only valid integer values between 0 and 255 can be entered in the text fields. The value should be updated when you press Enter in the text fields.
+    There should be a "Hex code" text field that displays the hexadecimal code for the current color.
+    There should be a store and recall button to store and recall a color value. There should be a random button to generate a random color.
+    Finally, you should add one more feature of your own choosing!
+
+ Marking:
+
+    Full correct user-interface display with correct layout managers [15%]
+    Linking scroll bars to the text fields etc. [15%]
+    Correctly limiting the entry of data to only valid values [10%]
+    All color rectangles working correctly (left and right) [20%]
+    Adding Random button functionality [10%]
+    Store and recall Functionality [10%]
+    Adding hex code functionality [10%]
+    Adding a feature of your own choosing that is commensurate with 10% of the marks [10%]
+
